@@ -4,7 +4,7 @@ $number = 157; //1
 $string = 83; //2
 $result = $number + $string; //3
 echo $result; //4
-echo $number1 . " + " . $number2 . " = " . $result; //5
+echo $number . " + " . $string . " = " . $result; //5
 echo "result " . gettype($result); //6
 echo gettype($number) . " + " . gettype($string) . " = " . gettype($result); //7
 unset($number, $string, $result); //8 
